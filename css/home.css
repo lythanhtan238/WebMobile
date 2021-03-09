@@ -1,0 +1,35 @@
+body {
+  background-image: url('');
+  background-repeat: repeat;
+}  
+
+img.anh {
+    vertical-align: middle;
+    border-style: none;
+    width: 100vw;
+    height: 60vh;
+    object-fit: cover;
+}
+
+.card img {
+  width: 20vw;
+object-fit: contain;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.card-body .left {
+  flex: 3;
+}
+
+.card-body .right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+

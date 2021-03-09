@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sản Phẩm</title>
+    <meta charset="utf-8">
+	
+</head>
+<body>
+    <h1 align="center" style="color: tomato;">Nhập thông tin nhà sản phẩm</h1>
+
+    <table border="1" align="center" cellspacing="15">
+        <td style="background-color: wheat;">
+            <table border="0" cellspacing="15">
+                <form action="form_sanpham.php" method="POST" enctype="multipart/form-data" >
+                    
+					<tr>
+                        <td width="300"></td>
+                    </tr>
+                    <tr>
+                        <td>Tên sản phẩm:</td>
+                        <td><input  type="text" name="SP_TEN"></td>
+                    </tr>
+					<tr>
+                        <td width="50"></td>
+                      
+                    </tr>
+                    <tr>
+                        <td>Hệ điều hành: </td>
+                        <td><input type="text" name="SP_HDH"></td>
+                    </tr>
+					<tr>
+                        <td>CHIP: </td>
+                        <td><input type="text" name="SP_CHIP"></td>
+                    </tr>
+					<tr>
+                        <td>RAM: </td>
+                        <td><input type="text" name="SP_RAM"></td>
+                    </tr>
+					<tr>
+                        <td>PIN: </td>
+                        <td><input type="text" name="SP_PIN"></td>
+                    </tr>
+					<tr>
+                        <td>Giá: </td>
+                        <td><input type="text" name="SP_GIA"></td>
+                    </tr>
+				
+					<tr>
+                        <td>Hình ảnh sản phẩm: </td>
+                        <td><input id="hinh" type="file" name="SP_HINH"></td>
+                    </tr>
+					<td>
+					</td>
+					<td>
+					<input type="submit" value="Đăng kí">
+					<input type="reset" value="Thay thế">
+					</td>
+					</tr>
+					</tr>
+            </form>
+            </table>
+        </td>
+    </table>
+</body>
+</html>
